@@ -92,6 +92,32 @@ header, nav, article, div, footer {
     - Assign width percentages to each remaining section: 20% for nav and div, and 60% for article. Set a height of these elements to 200px for visualization purposes.
     - Ensures the footer appears below the nav, article, and div sections.
 ```css
+header {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    clear: both;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+
+article {
+    float: left;
+    width: 60%;
+    height: 200px;
+}
+
+div {
+    float: left;
+    width: 20%;
+    height: 200px;
+}
 ```
 
 ---
